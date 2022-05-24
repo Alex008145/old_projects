@@ -17,11 +17,23 @@ h1 {
 
 .right_img {
   float: right;
-  margin: 0px 50px 10px 30px;
+  margin: 0px 0px 0px 10px;
 }
 
 table,
 td,
 th {
   border: 1px solid;
+}
+
+.responsive {
+  width: auto;
+  max-width: 240px;
+  height: auto;
+}
+
+.responsive2 {
+  width: auto;
+  max-width: 360px;
+  height: auto;
 }
