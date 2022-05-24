@@ -25,3 +25,9 @@ td,
 th {
   border: 1px solid;
 }
+
+.responsive {
+  width: auto;
+  max-width: 240px;
+  height: auto;
+}
