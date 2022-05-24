@@ -31,3 +31,9 @@ th {
   max-width: 240px;
   height: auto;
 }
+
+.responsive2 {
+  width: auto;
+  max-width: 360px;
+  height: auto;
+}
