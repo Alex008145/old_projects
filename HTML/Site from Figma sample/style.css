@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 32px;
+}
+header {
+  background: #007765;
+  height: 84px;
+  padding-top: 20px;
+  font-size: 24px;
+  position: fixed;
+  width: 1109px;
+}
+
+.main {
+  background: #e5e5e5;
+  height: 3500px;
+  padding-top: 100px;
+}
+.block {
+  font-size: 18px;
+  color: #fff;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.logo {
+  float: left;
+  padding-left: 40px;
+}
+nav {
+  float: right;
+}
+
+a {
+  color: #fff;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+
+nav a {
+  text-decoration: none;
+  line-height: 38px;
+}
+
+h1 {
+  text-align: center;
+  color: #007765;
+  font-size: 64px;
+}
+
+.leftimg {
+  float: left;
+  margin: 0px 50px 0px 50px;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: url("image1.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+/*Пятая секция*/
+
+.img {
+  width: 350px; /*Устанавливает ширину содержимого элемента*/
+  height: 283px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  flex-flow: column wrap;
+  align-items: center; /*Выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении*/
+  padding-bottom: 55px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
+/*Изображения*/
+
+.foto {
+  width: 168px; /*Устанавливает ширину содержимого элемента*/
+  height: 168px; /*Устанавливает высоту содержимого элемента*/
+}
+/*Фото*/
+
+.name {
+  font-weight: 700; /*Устанавливает насыщенность шрифта*/
+  font-size: 24px; /*Определяет размер шрифта элемента*/
+  line-height: 28px; /*Задаёт высоту строки текста*/
+  color: #007765; /*Определяет цвет текста элемента*/
+}
+/*Имя*/
+
+.team {
+  padding-top: 58px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+}
+/*Команда*/
+
+.figure {
+  margin: 0; /*Расстояние от края элемента до края другог элемента*/
+  padding: 0; /*Устанавливает значение полей вокруг содержимого элемента*/
+  display: flex; /*Определяет как элемент должен быть показан в документе*/
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/*Фигура*/
+
+.footer {
+  padding-top: 50px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+  background-color: #333; /*Определяет цвет фона элемента*/
+  height: 176px; /*Устанавливает высоту содержимого элемента*/
+  text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+}
+
+/*Подвал сайта*/
+
+.text {
+  width: 540px; /*Устанавливает ширину содержимого элемента*/
+  height: 74px; /*Устанавливает высоту содержимого элемента*/
+  margin: 0 auto; /*Расстояние от края элемента до края другог элемента*/
+  color: #fff; /*Определяет цвет текста элемента*/
+  font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+  font-weight: normal; /*Устанавливает насыщенность шрифта*/
+  font-size: 18px; /*Определяет размер шрифта элемента*/
+  line-height: 21px; /*Задаёт высоту строки текста*/
+}
