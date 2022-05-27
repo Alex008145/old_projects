@@ -106,7 +106,7 @@ h6 {
 /*Параграф*/
 
 .section_3 {
-  background: url(image2.png) center no-repeat;
+  background: url(image2.png) center no-repeat; /*Установит фон элемента*/
   background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
   padding-top: 128px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
   padding-bottom: 128px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
