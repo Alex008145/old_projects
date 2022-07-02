@@ -1,1 +1,9 @@
-console.log("Hello world");
+const a = () => {
+  console.log("Hey there");
+};
+
+a();
+
+a = 10;
+
+a();
